@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "item-view": "../myComponent/itemView"
+  },
+  "navigationBarTitleText": "创意菜",
+  "enablePullDownRefresh": true
+}

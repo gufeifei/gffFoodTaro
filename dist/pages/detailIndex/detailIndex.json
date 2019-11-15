@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "step-view": "../stepView/stepView"
+  },
+  "navigationBarTitleText": ""
+}

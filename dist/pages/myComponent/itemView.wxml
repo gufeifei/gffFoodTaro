@@ -1,0 +1,7 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="itemView" bindtap="onRowClick" data-e-tap-so="this" data-e-tap-a-a="{{titleName}}" data-e-tap-a-b="{{steps}}" data-e-tap-a-c="{{ingredients}}" data-e-tap-a-d="{{burden}}">
+        <image src="{{album}}" class="image" style="width:120px;height:90px;"></image>
+        <view class="rowView"><text class="text">{{titleName}}</text><text class="tags">{{tags}}</text>
+        </view>
+    </view>
+</block>

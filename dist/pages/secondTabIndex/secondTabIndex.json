@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "item-view": "../myComponent/itemView"
+  },
+  "navigationBarTitleText": "烘焙"
+}

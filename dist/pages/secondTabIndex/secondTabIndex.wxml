@@ -1,0 +1,7 @@
+<block wx:if="{{$taroCompReady}}">
+    <scroll-view scroll-y="{{true}}" scroll-with-animation="{{true}}">
+        <view class="secondTabIndex">
+            <item-view wx:for="{{loopArray1}}" wx:for-item="index" wx:for-index="_anonIdx2" compid="{{index.$compid__1}}"></item-view>
+        </view>
+    </scroll-view>
+</block>

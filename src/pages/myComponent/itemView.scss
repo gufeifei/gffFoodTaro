@@ -1,0 +1,35 @@
+.itemView {
+    display: flex;
+    margin: 20px;
+    flex-direction:row;
+}
+.rowView {
+    display: flex;
+    margin: 5px;
+    flex-direction:column;
+}
+.image {
+    border-radius:5px;
+    flex-shrink: 0;
+}
+.text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    font-size: large;
+    color: '#000000';
+}
+.tags {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    font-size: small;
+    color: '#999999';
+    padding-top:10px;
+}

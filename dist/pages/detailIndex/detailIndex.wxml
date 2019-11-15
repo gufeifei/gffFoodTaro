@@ -1,0 +1,17 @@
+<block wx:if="{{$taroCompReady}}">
+    <scroll-view scroll-y="{{true}}" scroll-with-animation="{{true}}">
+        <view class="view">
+            <view class="sectionHeader"><text class="title1">用料</text>
+            </view>
+            <view class="view"><text class="title2">{{ingredients}}</text>
+            </view>
+            <view class="view"><text class="title2">{{burden}}</text>
+            </view>
+            <view class="sectionHeader"><text class="title1">做法</text>
+            </view>
+            <view class="detailIndex">
+                <step-view wx:for="{{loopArray7}}" wx:for-item="index" wx:for-index="_anonIdx2" compid="{{index.$compid__7}}"></step-view>
+            </view>
+        </view>
+    </scroll-view>
+</block>

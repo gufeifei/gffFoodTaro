@@ -1,0 +1,9 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="itemView">
+        <view class="sectionView"><text class="text">{{step}}</text>
+        </view>
+        <view class="sectionImage">
+            <image src="{{img}}" class="image" style="width:200px;height:150px;"></image>
+        </view>
+    </view>
+</block>
