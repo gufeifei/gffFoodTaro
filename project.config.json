@@ -1,6 +1,6 @@
 {
 	"miniprogramRoot": "dist/",
-	"projectname": "gffApp",
+	"projectname": "gffFoodTaro",
 	"description": "教你如何做菜",
 	"appid": "wx3268fc7dd7991220",
 	"setting": {

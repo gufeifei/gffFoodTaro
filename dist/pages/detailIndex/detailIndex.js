@@ -38,7 +38,7 @@ var DetailIndex = (_temp2 = _class = function (_BaseComponent) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = DetailIndex.__proto__ || Object.getPrototypeOf(DetailIndex)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray7", "resuleArray", "title", "steps", "ingredients", "burden"], _this.config = {
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = DetailIndex.__proto__ || Object.getPrototypeOf(DetailIndex)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray2", "resuleArray", "title", "steps", "ingredients", "burden"], _this.config = {
       navigationBarTitleText: ''
     }, _this.customComponents = ["StepView"], _temp), _possibleConstructorReturn(_this, _ret);
   }
@@ -117,27 +117,27 @@ var DetailIndex = (_temp2 = _class = function (_BaseComponent) {
       ;
 
       var resuleArray = this.__state.steps;
-      var loopArray7 = resuleArray.map(function (index, _anonIdx) {
+      var loopArray2 = resuleArray.map(function (index, _anonIdx) {
         index = {
           $original: (0, _index.internal_get_original)(index)
         };
 
-        var _genCompid = (0, _index.genCompid)(__prefix + "hzzzzzzzzz" + _anonIdx, true),
+        var _genCompid = (0, _index.genCompid)(__prefix + "czzzzzzzzz" + _anonIdx, true),
             _genCompid2 = _slicedToArray(_genCompid, 2),
-            $prevCompid__7 = _genCompid2[0],
-            $compid__7 = _genCompid2[1];
+            $prevCompid__2 = _genCompid2[0],
+            $compid__2 = _genCompid2[1];
 
         _index.propsManager.set({
           "img": index.$original.img,
           "step": index.$original.step
-        }, $compid__7, $prevCompid__7);
+        }, $compid__2, $prevCompid__2);
         return {
-          $compid__7: $compid__7,
+          $compid__2: $compid__2,
           $original: index.$original
         };
       });
       Object.assign(this.__state, {
-        loopArray7: loopArray7,
+        loopArray2: loopArray2,
         resuleArray: resuleArray
       });
       return this.__state;

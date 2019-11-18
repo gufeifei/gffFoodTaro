@@ -10,7 +10,7 @@
             <view class="sectionHeader"><text class="title1">做法</text>
             </view>
             <view class="detailIndex">
-                <step-view wx:for="{{loopArray7}}" wx:for-item="index" wx:for-index="_anonIdx2" compid="{{index.$compid__7}}"></step-view>
+                <step-view wx:for="{{loopArray2}}" wx:for-item="index" wx:for-index="_anonIdx2" compid="{{index.$compid__2}}"></step-view>
             </view>
         </view>
     </scroll-view>

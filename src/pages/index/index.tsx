@@ -16,14 +16,14 @@ export default class Index extends Component {
    */
   config: Config = {
     navigationBarTitleText: '创意菜',
-    enablePullDownRefresh: true,
+    // enablePullDownRefresh: true,
   }
-  onPullDownRefresh = ()=>{
-    Taro.showNavigationBarLoading() 
-  }
-  onReachBottom =() => {
-    console.log('到底部了')
-  }
+  // onPullDownRefresh = ()=>{
+  //   Taro.showNavigationBarLoading() 
+  // }
+  // onReachBottom =() => {
+  //   console.log('到底部了')
+  // }
   componentWillMount () { }
 
   componentDidMount () { }

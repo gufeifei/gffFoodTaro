@@ -33,7 +33,7 @@ export default class SecondTabIndex extends Component {
     }
     return {
       title: '学习做菜，点击这里',
-      path: './secondTabIndex'
+      path: 'pages/secondTabIndex/secondTabIndex'
     }
   }
   render () {
